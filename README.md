@@ -8,22 +8,6 @@ M.A.D. Team
 mohancm100
 MxFeyo
 
-
-# android_device_alps_k05ts_a
-Device repository for Elephone P8000 CM12.1
-
-Currently broken features:
- * Smart Cover
-
-## Thanks to:
- * DerTeufel1980
- * fire855
- * jianminglok
- * walter79
- * valascus
- * Restorn
-
-
 ##How to compile:
 1. Get some free space on your harddisk (better to use a SSD) - 14gb download + 60gb for one build + 50gb ccache
 2. Get the latest CM 13 sources.
