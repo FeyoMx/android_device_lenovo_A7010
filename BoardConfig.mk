@@ -1,6 +1,6 @@
 # mt6753 platform boardconfig
-LOCAL_PATH := device/jiayu/s3plus_n560a
--include vendor/jiayu/s3plus_n560a/BoardConfigVendor.mk
+LOCAL_PATH := device/lenovo/A7010
+-include vendor/lenovo/A7010/BoardConfigVendor.mk
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -146,4 +146,4 @@ $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
 
 # SELinux
 BOARD_SEPOLICY_DIRS := \
-       device/jiayu/s3plus_n560a/sepolicy
+       device/lenovo/A7010/sepolicy
