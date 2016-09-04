@@ -4,18 +4,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/jiayu/s3plus_n560a/device.mk)
+$(call inherit-product, device/lenovo/A7010/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := s3plus_n560a
+PRODUCT_RELEASE_NAME := A7010
 
 EXTENDED_FONT_FOOTPRINT := true
 
-PRODUCT_DEVICE := s3plus_n560a
-PRODUCT_NAME := full_s3plus_n560a
-PRODUCT_BRAND := Jiayu
-PRODUCT_MODEL := S3+
-PRODUCT_MANUFACTURER := Jiayu
+PRODUCT_DEVICE := A7010
+PRODUCT_NAME := full_A7010
+PRODUCT_BRAND := Lenovo
+PRODUCT_MODEL := A7010
+PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Boot animation
