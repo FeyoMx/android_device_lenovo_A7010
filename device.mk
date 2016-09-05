@@ -166,10 +166,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Torch
 
-# Screen density
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
 # STk
 PRODUCT_PACKAGES += \
     Stk
